@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 60vmin;
+  pointer-events: none;
+  position: absolute;
+  top: 230px;
+  left: 1300px;
+  z-index: 3;
+  user-select: none;
+}
+
+
+.App-header {
+  background-color: #70abf7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-weight: 300;
+}
+
+
+.App-header p{
+  position: absolute;
+  top: 280px;
+  left: 230px;
+  font-family: 'Borel', cursive;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center; 
+  font-weight: lighter;
+  user-select: none;
+}
+
+.App-header h1{
+  position: absolute;
+  font-weight: lighter;
+  font-family: 'Borel', cursive;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  top: 365px;
+  left: 230px;
+  user-select: none;
+}
+
+.custom-buttom{
+  padding: 20px 50px;
+  background-color: #f7f9fb;
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Akira Expanded', sans-serif;
+  position: absolute;
+  top: 500px;
+  left: 230px;
+  z-index: 1;
+  user-select: none;
+}
+
+.custom-buttom:hover {
+  background-color: #0d0e0e;
+}
+
+.custom-buttom:focus {
+  outline: none;
+}
+
+.custom-buttom2{
+  padding: 20px 30px;
+  background-color: #fc905a;
+  color: #faf5f5;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Akira Expanded', sans-serif;
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  z-index: 2;
+  user-select: none;
+}
+
+.custom-button2:hover {
+  background-color: #0d0e0e;
+}
+
+.custom-button2:focus {
+  outline: none;
+}
+
+.App-header h2{
+  user-select: none;
+  font-size: 332px;
+  font-family: 'Akira Expanded', sans-serif;
+  position: absolute;
+  left: -50px;
+  top: 160px;
+  color: #53a2ff
+  
+}
+
+.colored-text {
+  display: inline-block;
+  font-family: 'Changa One', sans-serif;
+  font-size: 25px;
+  user-select: none;
+  position: absolute;
+  left: 870px;
+  top: 50px;
+}
+
+.first-half {
+  color: rgb(246, 246, 246); /* Color de la primera mitad */
+}
+
+.second-half {
+  color: rgb(0, 0, 0); /* Color de la segunda mitad */
+}
+
